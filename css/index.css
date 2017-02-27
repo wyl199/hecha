@@ -1,0 +1,292 @@
+/**{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*list-style-type: none;*/
+/*}*/
+
+.hc_toolbar{
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    font-size:12px;
+    background: #F0F0F0;
+    color:#999;
+}
+.hc_toolbar a{
+    color:#999;
+}
+.hc_toolbar a:hover{
+    color:#cd0606;
+    transition: 0.5s all;
+    text-decoration: underline;
+}
+/*左边*/
+.hc_toolbar .left{
+    float: left;
+}
+.hc_toolbar .hc_main{
+    width: 1190px;
+    height:28px;
+    margin:0 auto;
+    /*background: pink;*/
+}
+.hc_toolbar .left .fav span{
+    padding-left:4px;
+}
+.hc_toolbar .gap{
+    border-right:1px solid #d9d9d9;
+    height: 12px;
+    width: 0;
+    margin-left: 12px;
+    margin-right:12px;
+    line-height: 0;
+}
+.hc_toolbar .log{
+    margin-right: 9px;
+    margin-left: 9px;
+}
+/*左边结束*/
+/*微信*/
+.hc_toolbar .wx{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin: 0 5px;
+    background: url("../images/top_wx.png") no-repeat;
+    transition: 0.3s all;
+    position: relative;
+}
+.hc_toolbar .wx:hover{
+    background-position: 0 -29px;
+    background-color:#fff;
+}
+.hc_toolbar .wx:hover p{
+    display: block;
+}
+.hc_toolbar .wx p{
+    position: absolute;
+    top: 28px;
+    left:-125px;
+    width: 150px;
+    height:150px;
+    display: none;
+    background: url("../images/top_wx_wsc.png") no-repeat;
+}
+.hc_toolbar .wx p span{
+    display: block;
+    height: 170px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 150px;
+    color: #999;
+}
+/*微信结束*/
+/*右边工具栏*/
+.hc_toolbar .right{
+    float: right;
+
+}
+.hc_toolbar .right a{
+    margin:0 9px;
+}
+.hc_toolbar .right span{
+    border-right:1px solid #d9d9d9;
+    height: 12px;
+    width: 0;
+    margin:8px 5px 0 5px;
+    line-height: 0;
+    float: right;
+}
+/*右边工具栏结束*/
+/*购物车*/
+.hc_toolbar .topcart{
+    float: right;
+    width: 115px;
+    height: 28px;
+    position: relative;
+
+}
+.hc_toolbar .topcart:hover{
+    box-shadow: 1px 1px 4px 0 #999;
+    height:28px;
+    background-color: #fff;
+}
+.hc_toolbar .topcart:hover  em{
+    display: block;
+}
+.hc_toolbar .topcart:hover .cartList{
+    box-shadow: 1px 1px 4px 0 #999;
+    display: block;
+}
+.hc_toolbar .topcart .ti:hover{
+    background-position: right -27px;
+
+}
+.hc_toolbar .topcart .ti:hover a{
+    text-decoration: none;
+    color:#666;
+}
+
+.hc_toolbar .topcart .ti{
+    width: 115px;
+    height: 30px;
+    transition: 0.3s all;
+    background: url("../images/top_ico3.png") no-repeat right 0px;
+}
+.hc_toolbar .topcart em{
+    display: none;
+    width:115px;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    top: 26px;
+    z-index: 99;
+    background: #fff;
+
+}
+.hc_toolbar .topcart .ti strong{
+    color:#666;
+}
+.hc_toolbar .topcart .ti span:nth-child(1){
+    padding-left:25px;
+    background: url("../images/top_cart1.png") no-repeat 8px 2px;
+}
+
+.hc_toolbar .topcart .cartList{
+    background: #fff;
+    width: 260px;
+    position: absolute;
+    left: 0;
+    top:28px;
+    text-align: center;
+    display: none;
+    z-index: 22;
+}
+.hc_toolbar .topcart .cartList h3{
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    font-weight:normal;
+    color:#999;
+}
+
+/*头中部分*/
+.hc_header{
+    width: 100%;
+    height:90px;
+    background: #fff;
+}
+.hc_header .hc_main{
+    width: 1190px;
+    height: 90px;
+    margin:0 auto;
+    /*background: pink;*/
+    position: relative;
+    overflow: hidden;
+}
+/*logo部分*/
+.hc_header .logo{
+    width: 260px;
+    height: 70px;
+    overflow: hidden;
+    float: left;
+    margin-top:10px;
+}
+.hc_header .logo a img{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    z-index: 10;
+    transition: 0.3s all;
+}
+.hc_header .logo a span{
+    font-size:18px;
+    line-height: 18px;
+    height: 18px;
+    width: 270px;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top:45px;
+    z-index: 2;
+    background: url("../images/logo1.png") no-repeat;
+    transition: 0.3s all;
+}
+.hc_header .logo:hover img{
+    top: 10px;
+}
+.hc_header .logo:hover span{
+    top:60px;
+    opacity: 1;
+}
+
+.hc_header .hc_main .act{
+    float: left;
+    width: 88px;
+    height: 87px;
+    margin:0 15px 0 40px;
+    background: #000;
+}
+
+/*中间搜索框部分*/
+.hc_header .search{
+    width: 390px;
+    float: left;
+    margin-top: 21px;
+    color: #acacac;
+}
+.hc_header .search dl{
+    height: 33px;
+}
+.hc_header .search dl dt{
+    float: left;
+    width: 316px;
+    height: 29px;
+    zoom: 1;
+    position: relative;
+    border: 2px solid #acacac;
+}
+.hc_header .search dl dt input{
+    height: 23px;
+    line-height: 23px;
+    width: 300px;
+    display: inline;
+    clear: left;
+    float: left;
+    font-size: 14px;
+    background-color: #ffffff;
+    border:none;
+    outline:none;
+    padding-left: 7px;
+}
+.hc_header .search dl dd input{
+    float: left;
+    background:url("../images/top_search.png") no-repeat;
+    outline: none;
+    height: 33px;
+    width: 65px;
+    cursor: pointer;
+    font-size: 0px;
+    display: block;
+    line-height: 0px;
+    position: relative;
+    left: -2px;
+}
+.hc_header .search p{
+
+    color: #999;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
