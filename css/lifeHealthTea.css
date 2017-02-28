@@ -88,7 +88,6 @@ a:hover{
     height: 180px;
 }
 
-
 .center{
     width: 990px;
     height: 258px;
@@ -155,15 +154,18 @@ a:hover{
 }
 .center li .box{
     float: left;
-    width: 62px;
+    width: 52px;
     height: 27px;
     line-height: 27px;
-    padding-left: 3px;
+    padding-left: 13px;
     font-weight: bold;
 }
 .center li .box a{
     display: inline-block;
-    padding: 0 10px;
+    width: 24px;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 9px;
     background: #559B0D;
     color: #FFFFFF;
 }
@@ -173,9 +175,10 @@ a:hover{
 }
 .center li .list{
     float: left;
-    width: 815px;
+    width: 805px;
     height: 33px;
     line-height: 33px;
+    padding-left: 10px;
 }
 .center li .list p{
     float: left;
@@ -207,16 +210,30 @@ a:hover{
 }
 .center .sort .cen li{
     float: left;
-    width: 50px;
+    width: 40px;
     height: 20px;
+    padding-left: 10px;
     margin: 6px 0 0 10px;
     background: #FAFAFA;
     border: 1px solid #E0E0E0;
+    position: relative;
+}
+.center .sort .cen li a:hover{
+    color: #000;
 }
 .center .sort .cen li i{
-    font-size: 8px; //怎么缩小？？？？？？？？？？？？？？？？
+    float: right;
+    top: -3px;
+    right: 1px;
+    position: absolute;
     color: #B0B0B0;
+    transform: scale(0.6);
 }
+.center .sort .cen li:nth-child(2) i{
+    top: -1px;
+    right: 1px;
+}
+
 
 
 .bottom{
