@@ -100,15 +100,10 @@ body {
 	/*版心 提取 */
 	width: 1190px;
 	margin: 0 auto;
+	overflow: hidden;
 }
-
 .tint_color{
 	color:#ff6600;
-}
-
-.piple {
-	margin: 0 10px;
-	color: #ccc;
 }
 
 .fl {
@@ -133,10 +128,4 @@ body {
 
 .hide {
 	display: none
-}
-.ml5 {
-	margin-left: 5px;
-}
-.gray_color {
-	color: gray;
 }

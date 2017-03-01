@@ -1,9 +1,6 @@
-/**{*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-    /*list-style-type: none;*/
-/*}*/
-
+*{
+    font-family:"微软雅黑";
+}
 .hc_toolbar{
     width: 100%;
     height: 28px;
@@ -66,11 +63,12 @@
 .hc_toolbar .wx p{
     position: absolute;
     top: 28px;
-    left:-125px;
+    left:-118px;
     width: 150px;
     height:150px;
     display: none;
     background: url("../images/top_wx_wsc.png") no-repeat;
+    z-index: 5;
 }
 .hc_toolbar .wx p span{
     display: block;
@@ -230,7 +228,6 @@
     width: 88px;
     height: 87px;
     margin:0 15px 0 40px;
-    background: #000;
 }
 
 /*中间搜索框部分*/
@@ -264,6 +261,9 @@
     outline:none;
     padding-left: 7px;
 }
+.hc_header .search dl dd{
+    overflow: hidden;
+}
 .hc_header .search dl dd input{
     float: left;
     background:url("../images/top_search.png") no-repeat;
@@ -278,10 +278,123 @@
     left: -2px;
 }
 .hc_header .search p{
-
+    margin-top:2px;
     color: #999;
     font-size: 12px;
 }
+.hc_header .search a{
+    color:#999;
+}
+.hc_header .search a:hover{
+    color:#f60;
+    text-decoration: underline;
+}
+/*正优信*/
+.hc_header .right p{
+    float: right;
+    margin-top:20px;
+}
+.hc_header .right p .ibgmove i{
+    display: block;
+    width: 33px;
+    height: 33px;
+    margin:0 auto;
+    border-radius:50%;
+    transition: 0.3s all;
+}
+.hc_header .right p .tx1 i{
+    background: url("../images/top_ico11.png") no-repeat;
+}
+.hc_header .right p .tx1:hover i,
+.hc_header .right p .tx2:hover i,
+.hc_header .right p .tx3:hover i{
+    background-position: 0 -33px;
+}
+.hc_header .right p .tx2 i{
+    background: url("../images/top_ico12.png") no-repeat;
+}
+.hc_header .right p .tx3 i{
+    background: url("../images/top_ico13.png") no-repeat;
+}
+.hc_header .right p .tx4{
+    font-size:14px;
+    padding-top:32px;
+    text-align: right;
+    width: 95px;
+    height: 25px;
+    background: url("../images/top_ico14.png") no-repeat center 5px;
+}
+.hc_header .right p a{
+    display: block;
+    float: left;
+    width: 81px;
+    height:57px;
+    text-align: center;
+    margin-left:12px;
+    color:#999;
+}
+.hc_header .right p a:hover{
+    color:#666;
+}
+/*头部导航部分*/
+.hc_menu{
+    width: 100%;
+    height:36px;
+    background:#60a411;
+    overflow: hidden;
+}
+.hc_menu .hc_nav{
+    width: 1190px;
+    height:36px;
+    margin:0 auto;
+}
+.hc_menu .allbtn{
+    float: left;
+}
+.hc_menu .allbtn h2 a{
+    font-size:14px;
+    color: #fff;
+    width: 180px;
+    height: 36px;
+    line-height: 36px;
+    display: block;
+    padding-left:10px;
+    background: #358000;
+}
+.hc_menu .tnav{
+    float: left;
+}
+
+.hc_menu .tnav ul li{
+    float: left;
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    line-height:36px;
+    color:#fff;
+    font-size:14px;
+}
+.hc_menu .tnav ul li a{
+    display: block;
+    width: 100px;
+    height: 36px;
+    color:#fff;
+    transition: 0.2s all;
+}
+.hc_menu .tnav ul li:hover a{
+    background: #358000;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
