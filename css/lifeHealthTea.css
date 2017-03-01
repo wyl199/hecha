@@ -289,8 +289,6 @@ a:hover{
     opacity: 0;
 }
 
-
-
 .bottom{
     width: 100%;
     height: 1323px;
@@ -299,17 +297,164 @@ a:hover{
 }
 .bottom .left{
     width: 188px;
-    height: 892px;
     float: left;
     border: 1px solid #E0E0E0;
-    background: pink;//---最后删除---
 }
+.bottom .left .title{
+    width: 178px;
+    height: 39px;
+    line-height: 39px;
+    padding-left: 10px;
+    font-size: 14px;
+    background: #F7F7F7;
+}
+.bottom .left .prolist{
+    width: 178px;
+    height: 832px;
+    padding: 10px 0 10px 10px;
+}
+.bottom .left .prolist li{
+    width: 100%;
+    padding-top: 5px;
+}
+.bottom .left li p{
+    float: left;
+    width: 60px;
+}
+.bottom .left li img{
+    width: 60px;
+    height: 60px;
+    background: blue;
+}
+.bottom .left li .rbox{
+    float: left;
+    width: 102px;
+    padding: 5px 0 0 8px;
+}
+.bottom .left .rbox .txt{
+    width: 102px;
+    line-height: 16px;
+}
+.bottom .left .rbox .txt a{
+    color: #999999;
+}
+.bottom .left .rbox .txt a:hover{
+    text-decoration: underline;
+}
+.bottom .left .rbox .pri{
+    width: 102px;
+    height: 24px;
+    line-height: 24px;
+}
+.bottom .left .rbox .pri i{
+    color: #CD0653;
+}
+.bottom .left .rbox .pri del{
+    padding-left: 5px;
+    color: #BFBFBF;
+}
+
 .bottom .right{
     width: 990px;
     height: 100%;
     float: right;
-    background: pink;//---最后删除---
+    /*background: pink;//---最后删除---*/
 }
+.bottom .right li{
+    float: left;
+    width: 240px;
+    height: 395px;
+    position: relative;
+    margin: 0 10px 20px 0;
+    background: #FFFFFF;
+}
+.bottom .right li:nth-child(4n){
+    margin: 0 0 20px 0;
+}
+.bottom .right .goods{
+    width: 236px;
+    position: absolute;
+    min-height: 395px;
+    border: 1px solid #FFFFFF;
+}
+.bottom .right .goods:hover{
+    border: 1px solid #E0E0E0;
+    box-shadow: 1px 1px 1px #999999;
+}
+.bottom .right li .img{
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    padding-top: 11px;
+}
+.bottom .right li .img img{
+    width: 220px;
+    height: 220px;
+}
+.bottom .right li .name{
+    padding: 0 10px;
+    line-height: 18px;
+    margin-top: 8px;
+    color: #666666;
+}
+.bottom .right li .name a:hover{
+    text-decoration: underline;
+}
+.bottom .right li .pri{
+    padding: 5px 10px 0;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 22px;
+}
+.bottom .right li .pri strong{
+    color: #CD0653;
+    font-size: 16px;
+    font-weight: normal;
+}
+.bottom .right li .mpri{
+    padding: 0 10px;
+    line-height: 18px;
+    height: 18px;
+    clear: both;
+    color: #999999;
+}
+.bottom .right li .mpri p{
+    float: right;
+    color: #999999;
+}
+.bottom .right .mpri p a{
+    color: #005AA0;
+}
+.bottom .right .mpri p a:hover{
+    text-decoration: underline;
+}
+.bottom .right .buy{
+    padding-left: 5px;
+    height: 35px;
+    clear: both;
+}
+.bottom .right .buy a{
+    float: left;
+    padding: 0 9px;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 23px;
+    line-height: 23px;
+    color: #666666;
+    border: 1px solid #d9d9d9;
+    background: #f5f5f5;
+}
+.bottom .right .buy .go:hover{
+    color: #FFFFFF;
+    background: #E2383B;
+    border: 1px solid #E2383B;
+}
+.bottom .right .buy .cat:hover{
+    color: #FFFFFF;
+    background: #835A31;
+    border: 1px solid #835A31;
+}
+
 
 
 
