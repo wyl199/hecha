@@ -143,6 +143,9 @@ a:hover{
     padding: 5px 0;
     border-bottom: 1px dotted #E0E0E0;
 }
+.center .list li:hover{
+    background: #F9F9F9;
+}
 .center li .tx{
     float: left;
     width: 90px;
@@ -358,7 +361,6 @@ a:hover{
     width: 990px;
     height: 100%;
     float: right;
-    /*background: pink;//---最后删除---*/
 }
 .bottom .right li{
     float: left;
@@ -453,6 +455,39 @@ a:hover{
     color: #FFFFFF;
     background: #835A31;
     border: 1px solid #835A31;
+}
+.bottom .right .hc_page{
+    border-top: 1px solid #e0e0e0;
+    padding: 12px 3px 10px 0;
+    margin-top: 10px;
+    clear: both;
+    color: #666666;
+    text-align: right;
+}
+.bottom .right .hc_page p{
+    display: inline-block;
+    width: 28px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 3px;
+    border: 1px solid #60A411;
+    background: #60A411;
+}
+.bottom .right .hc_page a{
+    display: block;
+    width: 28px;
+    height: 25px;
+    font-size: 14px;
+    border: none;
+    color: #FFFFFF;
+}
+.bottom .right .hc_page p:nth-of-type(2){
+    border: 1px solid #d9d9d9;
+}
+.bottom .right .hc_page p:nth-of-type(2) a{
+    color: #666666;
+    background: #FCFCFC;
 }
 
 
