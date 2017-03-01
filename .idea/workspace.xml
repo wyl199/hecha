@@ -23,8 +23,8 @@
       <file leaf-file-name="lifeHealthTea.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lifeHealthTea.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="582" column="41" selection-start-line="582" selection-start-column="41" selection-end-line="582" selection-end-column="41" />
+            <state relative-caret-position="145">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -487,12 +487,12 @@
       <workItem from="1488243498132" duration="1388000" />
       <workItem from="1488262568517" duration="2195000" />
       <workItem from="1488330914440" duration="11308000" />
-      <workItem from="1488377032497" duration="9542000" />
+      <workItem from="1488377032497" duration="9755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54288000" />
+    <option name="totallyTimeSpent" value="54501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="351" y="5" width="739" height="744" extended-state="0" />
@@ -997,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lifeHealthTea.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="582" column="41" selection-start-line="582" selection-start-column="41" selection-end-line="582" selection-end-column="41" />
+        <state relative-caret-position="145">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
