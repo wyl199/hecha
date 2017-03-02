@@ -341,25 +341,11 @@
     width: 100%;
     height:36px;
     background:#60a411;
-    overflow: hidden;
 }
 .hc_menu .hc_nav{
     width: 1190px;
     height:36px;
     margin:0 auto;
-}
-.hc_menu .allbtn{
-    float: left;
-}
-.hc_menu .allbtn h2 a{
-    font-size:14px;
-    color: #fff;
-    width: 180px;
-    height: 36px;
-    line-height: 36px;
-    display: block;
-    padding-left:10px;
-    background: #358000;
 }
 .hc_menu .tnav{
     float: left;
@@ -384,22 +370,112 @@
 .hc_menu .tnav ul li:hover a{
     background: #358000;
 }
+/*商品分类*/
 
+.hc_menu .allbtn{
+    float: left;
+}
+.hc_menu .allbtn h2 a{
+    font-size:14px;
+    color: #fff;
+    width: 175px;
+    height: 36px;
+    line-height: 36px;
+    display: block;
+    padding-left:15px;
+    background: #358000;
+}
+.hc_menu .allbtn ul{
+    display: none;
+}
+.hc_menu .allbtn:hover ul{
+    display: block;
+}
 
+.hc_menu .allbtn .box .tx{
+    padding-left:10px;
+    width: 180px;
+    height:35px;
+    line-height: 35px;
+    background: url(../images/header_bg1.png) no-repeat center right #559b0d;
+}
+.hc_menu .allbtn .box .tx a{
+    font-size:14px;
+    color: #fff;
+}
+.hc_menu .allbtn .box .tx a i{
+    width: 25px;
+    height: 25px;
+    margin-right:10px;
+    margin-top:5px;
+    float: left;
+}
+.hc_menu .allbtn .a1 .tx a i{
+    background: url("../images/header_ico1.png") no-repeat 0 0;
+}
+.hc_menu .allbtn .a2 .tx a i{
+    background: url("../images/header_ico2.png") no-repeat 0 0;
+}
+.hc_menu .allbtn .a3 .tx a i{
+    background: url("../images/header_ico3.png") no-repeat 0 0;
+}
+.hc_menu .allbtn .a4 .tx a i{
+    background: url("../images/header_ico4.png") no-repeat 0 0;
+}
+.hc_menu .allbtn .box dl{
+    background: #60a411;
+    color: #fff;
+    padding-top:4px;
+    width: 190px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.hc_menu .allbtn .box dl dt{
+    width: 30px;
+    float: left;
+    padding-left:10px;
+    padding-top: 1px;
+    color: #fff;
+}
+.hc_menu .allbtn .box dl dd{
+    width: 150px;
+    float: left;
+    line-height: 22px;
+    padding-bottom:7px;
+}
+.hc_menu .allbtn .box dl dd a{
+    margin-left:6px;
+    margin-right:6px;
+    line-height: 22px;
+    color: #d9e7ce;
+    float: left;
+}
+.hc_menu .allbtn ul li:hover .tx{
+    background: url(../images/header_bg1.png) no-repeat center right #f5f5f5;
+}
+.hc_menu .allbtn ul li:hover .tx a{
+    color: #666;
+}
+.hc_menu .allbtn ul li .tx a:hover{
 
+}
+.hc_menu .allbtn ul li:hover .tx a i{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    background-position:0 -25px ;
+}
+.hc_menu .allbtn ul li:hover dl{
+    background: #fff;
+}
+.hc_menu .allbtn ul li:hover dl dt{
+    color:#666;
+}
+.hc_menu .allbtn ul li:hover dl dd a{
+    color:#666;
+}
+.hc_menu .allbtn ul li dl dd a:hover,
+.hc_menu .allbtn ul li .tx a:hover{
+    text-decoration: underline;
+    color:#cd0606;
+}
 
 
